@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attendance Recorder Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #282c34;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 8px 0;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header style="text-align: center;">
-        <h1>Attendance Recorder</h1>
+    <header>
+        <h1>Attendance Recorder Project</h1>
         <p>AI-based facial recognition system for recording attendance using TensorFlow and OpenCV.</p>
     </header>
-    
+
     <section>
         <h2>Project Description</h2>
         <p>This project implements an automated attendance recorder system using facial recognition. The system is built using TensorFlow and OpenCV, and it classifies students based on their facial features.</p>
@@ -81,7 +124,7 @@
         <p>This project is licensed under the MIT License - see the <a href="https://opensource.org/licenses/MIT" target="_blank">LICENSE</a> file for details.</p>
     </section>
 
-    <footer style="text-align: center;">
+    <footer>
         <p>&copy; 2025 Attendance Recorder Project. All Rights Reserved.</p>
     </footer>
 </body>
