@@ -6,8 +6,8 @@ def preprocess_face(frame):
     Preprocess the detected face.
     Crop, resize, and normalize the image.
     """
-    face = cv2.resize(frame, (224, 224))  # Resize to model's input size
-    face = face / 255.0  # Normalize pixel values to [0, 1]
+    face = cv2.resize(frame, (224, 224))  
+    face = face / 255.0 
     return face
 
 def validate_dataset_path(dataset_dir):
